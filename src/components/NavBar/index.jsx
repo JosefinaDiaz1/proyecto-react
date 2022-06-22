@@ -1,6 +1,7 @@
 import React from 'react';
+import 'components/NavBar.css'
 
-export const NavBAr = () => {
+export const NavBar = () => {
     return(
         <div className='container'>
             <nav className='nav'>
