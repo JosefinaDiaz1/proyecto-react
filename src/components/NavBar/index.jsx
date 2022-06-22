@@ -1,7 +1,8 @@
-import React from 'react';
-import 'components/NavBar.css'
+import React from "react";
+import NavBar from "..NavBar/"
 
-export const NavBar = () => {
+
+export const NavBar= () =>{
     return(
         <div className='container'>
             <nav className='nav'>
@@ -26,4 +27,5 @@ export const NavBar = () => {
 }
 
 
-export default NavBar;
+
+export default App;
