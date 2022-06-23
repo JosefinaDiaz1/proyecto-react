@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo{
+    width: 15%;
+}
+
+.secciones{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.secciones:hover{
+    background-color: black;
+    color: white;
+}
