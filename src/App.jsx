@@ -1,8 +1,12 @@
 import './App.css';
 import {NavBar} from "./components/NavBar";
+import {ItemListContainer} from "./ItemListContainer"
 
 function App() {
-  return <NavBar />;
+  return <>
+          <NavBar/>
+          <ItemListContainer texto ='Tienda Online'/>
+  </>
 }
 
 export default App;
