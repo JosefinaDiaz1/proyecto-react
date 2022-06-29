@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React from "react"
 import  "../ItemsCount/ItemsCount.css"
 import { useState, useEffect } from "react"
 

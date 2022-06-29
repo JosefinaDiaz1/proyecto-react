@@ -1,11 +1,11 @@
 import React from "react";
 import Tittle from "../Tittle";
-import ItemCount from "./ItemsCount"
+import ItemCount from "../ItemsCount";
 
 export const ItemListContainer = (props) =>{
 
         const onAdd=(quantity)=>{
-            console.log("Compraste ${quantity} unidades")
+            console.log(`Compraste ${quantity}  unidades `)
 
         }
         return(
