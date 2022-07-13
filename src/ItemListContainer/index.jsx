@@ -27,27 +27,22 @@ const ItemListContainer = (props) =>{
       });
       getData.then(res => setData(res));
       },[]) 
+      const onAdd=(quantity)=>{
+        console.log(`Compraste ${quantity}  unidades `)
+
+    }
+
+
+    return(
+        <>
+            <Tittle greeting={props.texto} />
+            <ItemCount initial={1} stock={15} onAdd={onAdd}/>
+            <ItemList data={data} /> 
+        </>
+    );
+
 
   }
-    
-
-        const onAdd=(quantity)=>{
-            console.log(`Compraste ${quantity}  unidades `)
-
-        }
-
-
-        return(
-            <>
-                <Tittle greeting={props.texto} />
-                <ItemCount initial={1} stock={15} onAdd={onAdd}/>
-                <ItemList data={data} /> 
-            </>
-        );
-
-
-
-
 
 
 export default ItemListContainer;
