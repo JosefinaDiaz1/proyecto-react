@@ -1,5 +1,5 @@
 import React from "react";
-import ItemDetail from"../ItemDetail/ItemDetail.css"
+
 
 export const ItemDetail =({data})=>{
     return(
