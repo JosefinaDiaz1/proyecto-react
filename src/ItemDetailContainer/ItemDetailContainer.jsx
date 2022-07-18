@@ -3,6 +3,7 @@ import ItemDetail from "../ItemDetail/ItemDetail.jsx";
 import {useParams} from 'react-router-dom'
 
 
+
 const productos = [{id:'01', category:'Aros', name:'Argolla Plateada', 
                 description:"Argolla de acero quirurgico", 
                 img:'https://i.postimg.cc/rsyWp2gq/argolla-Plateada.jpg', stock:5},{id:'02', categoria:'Aros', name:'Aros', description:"Aros de acero quirurgico a presion", img:'https://i.postimg.cc/KvHLmVTy/aros.jpg', stock:15},

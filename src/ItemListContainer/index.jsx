@@ -1,6 +1,5 @@
 /* import React {useEffect, useState} from "react"; */
 import Tittle from "../Tittle";
-import ItemCount from "../ItemsCount";
 import { useEffect , useState  } from "react";
 import ItemList from "../ItemList/ItemList";
 import Item from "../Item/Item"; 
@@ -35,16 +34,12 @@ const ItemListContainer = (props) =>{
       }
       
       },[CategoriaId]) 
-      const onAdd=(quantity)=>{
-        console.log(`Compraste ${quantity}  unidades `)
-
-    }
+      
 
 
     return(
         <>
             <Tittle greeting={props.texto} />
-            <ItemCount initial={1} stock={15} onAdd={onAdd}/>
             <ItemList data={data} /> 
         </>
     );
