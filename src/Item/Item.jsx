@@ -1,10 +1,10 @@
 import React, {useContext} from 'react';
 import "../Item/Item.css";
 import {Link} from 'react-router-dom'
-import { CartContext } from '../CartContext';
+import { useCartContext } from '../CartContext';
 
 const Item =({info}) =>{
-  const saludo = useContext(CartContext);
+  const saludo = useContext(useCartContext);
   console.log('Item:', saludo);
 
   return(

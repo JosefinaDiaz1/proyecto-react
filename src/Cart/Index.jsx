@@ -1,11 +1,11 @@
 import React from "react";
-import { CartContext } from '../CartContext';
+import { useCartContext } from '../CartContext';
 import ItemCart from "../ItemCart/Index";
 
 
 
 const Cart =()=>{
-    const [ cart, totalPrice] = CartContext
+    const [ cart, totalPrice] = useCartContext
 
     if(cart.length === 0){
         return(
